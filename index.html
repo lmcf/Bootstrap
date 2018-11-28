@@ -12,6 +12,7 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -23,20 +24,64 @@
         <!--Favicon-->
         <link rel="icon" type="image/png" href="images/favicon.png">
 
+        <!-- BxSlider CSS File-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
         <!-- Bootstrap Javascript -->
         <script src="js/jquery.js"></script>
-        <script src="js/boostrap-min.js"></script>
+        <!--<script src="js/boostrap-min.js"></script>-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+        <script src="js/custom.js"></script>
+    
     </head>
 
     <body>
 
         <!--HEADER-->
-        <header class="header">
+        <header class="header" id="home">
+
+            <nav class="navbar navbar-default navbar-fixed-top">
+
+                <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <!-- Small size logo -->
+                            <img src="images/logo-small.png" alt="miniatura logo">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="#home" class="nav-item">Home</a></li>
+                            <li><a href="#about" class="nav-item">About</a></li>
+                            <li><a href="#features" class="nav-item">Features</a></li>
+                            <li><a href="#screens" class="nav-item">Screens</a></li>
+                            <li><a href="#download-now" class="nav-item">Download</a></li>
+                            <li><a href="#contact" class="nav-item">Contact</a></li>
+                            
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+
+                </div><!-- /.container-fluid -->
+
+            </nav>
 
             <div class="header-overlay">
 
-                <div class="container">
+                <div class="container header-container">
 
                     <div class="row">
 
@@ -101,7 +146,7 @@
         </header>
 
         <!-- ABOUT US -->
-        <section>
+        <section id="about">
 
             <div class="container">
 
@@ -207,7 +252,7 @@
         </section>
        
         <!-- TESTIMONIALS -->
-        <section class="testimonial">
+        <section id="testimonial" class="testimonial">
 
             <div class="testimonial-overlay">
 
@@ -234,7 +279,7 @@
                                 <div class="carousel-inner">
 
                                     <!-- ITEM 1 -->
-                                    <div class="item active text-center">
+                                    <div class="item  text-center">
 
                                         <img src="images/client-01.jpg" alt="testimonial" class="center-block">
 
@@ -242,7 +287,7 @@
 
                                             <h2>Daniel</h2>
 
-                                            <h4><span>Sr. Software Engineer, Blue Gyms</span></h4>
+                                            <h4><span>Sr. Software Engineer, </span>Blue Gyms</h4>
 
                                             <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</p>
 
@@ -251,7 +296,7 @@
                                     </div>
 
                                     <!-- ITEM 2 -->
-                                    <div class="item text-center">
+                                    <div class="item active text-center">
 
                                         <img src="images/client-02.jpg" alt="testimonial" class="center-block">
 
@@ -259,7 +304,7 @@
 
                                             <h2>Raul Pole</h2>
 
-                                            <h4><span>Marketing Manager, Risko</span></h4>
+                                            <h4><span>Marketing Manager,</span> Risko</h4>
 
                                             <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</p>
 
@@ -276,7 +321,7 @@
 
                                             <h2>Jim So</h2>
 
-                                            <h4><span>Assistan Manager, Gidfo</span></h4>
+                                            <h4><span>Assistan Manager,</span> Gidfo</h4>
 
                                             <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</p>
 
@@ -299,7 +344,7 @@
         </section>
         
         <!--Features-->
-        <section class="features">
+        <section id="features" class="features">
 
             <div class="container">
 
@@ -453,7 +498,7 @@
         </section>
 
         <!-- Purchase Now -->
-        <section class="purchase-now">
+        <section id="purchase-now" class="purchase-now">
 
             <div class="container">
 
@@ -478,7 +523,7 @@
         </section>
 
         <!-- Screens -->
-        <section class="screens">
+        <section id="screens" class="screens">
 
             <div class="container">
 
@@ -608,7 +653,7 @@
         </section>
 
         <!-- Download now -->
-        <section class="download-now">
+        <section id="download-now" class="download-now">
 
             <div class="container">
 
@@ -740,7 +785,7 @@
         </section>
 
         <!-- Contact Us -->
-        <section class="contact-us">
+        <section id="contact" class="contact-us">
 
              <div class="container">
 
@@ -844,7 +889,7 @@
 
                         <div class="scroll-top">
 
-                            <a href="#"><i class="fa fa-angle-up"></i></a>
+                            <a href="#home" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
                         
                         </div>
                         
@@ -855,7 +900,7 @@
             </div>
 
         </footer>
-
+        
     </body>
 
 </html>
