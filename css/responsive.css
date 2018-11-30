@@ -1,0 +1,77 @@
+/* Phone Img - Small Devices*/
+@media only screen and (max-width: 767px){
+
+	.navbar-default
+	{
+		background-color:#fff !important;
+		border-color:#e6e6e6; 
+	}
+
+	.about-iphone img
+	{
+		width:100%;
+	}
+
+	.purchase-now .col-md-3
+	{
+		text-align: center;
+		padding-top: 50px;
+	}
+
+}
+
+/* Phone Img - Small Devices & Tablets*/
+@media only screen and (max-width: 768px){
+	
+	.header-iphone
+	{
+		display: none !important;
+	}
+
+	.header-text, .header-btns
+	{
+		text-align: center;
+	}
+
+
+}
+
+/* Media Devices & Desktop*/
+@media only screen and (max-width: 992px) {
+
+	.header-iphone
+	{
+		width: 100%;
+    	text-align: center;
+	}
+	
+	.header-iphone img
+	{
+		width: 40%;
+	}
+
+	.about-iphone img
+	{
+		width:50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.feature-iphone img
+	{
+		width:45% !important;
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
+
+	.bxslider .item img
+	{
+		width: 50% !important;
+	}
+	
+}
+
+/* Large Devices & Desktop*/
+@media only screen and (min-width: 1200px){
+	
+}
