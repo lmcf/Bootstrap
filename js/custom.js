@@ -144,3 +144,36 @@ $(document).ready(function() {
 
 });*/
 
+
+/*
+Carousel bxslider
+*/
+$(document).ready(function(){
+
+	$('.bxslider').bxSlider({
+		slideWidth: 350,
+		auto:true,
+		minSlides:1,
+		maxSlides: 1,
+		slideMargin:50
+	});
+});
+
+
+
+// Añadir contador
+
+$(document).ready(function(){
+	$('.counter-num').counterUp({
+    delay: 10,
+    time: 2000
+});
+});
+
+/*
+Añadir animación al boton download y take a tour
+*/
+$(document).ready(function(){
+	'use strict';
+	new WOW().init();
+});s
