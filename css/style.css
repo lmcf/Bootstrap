@@ -404,7 +404,7 @@ p
 
 .feature-iphone img
 {
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .right-feature-item
@@ -534,6 +534,12 @@ p
 .download-now
 {
 	width:100%;
+}
+
+.download-now img
+{
+	margin-bottom: 25px !important;
+	width: 100%
 }
 
 .available-on
@@ -768,4 +774,15 @@ p
 {
 	background-color: #129cf3;
 	padding:25px;
+}
+
+/* === Arreglo BxSlider ===*/
+.screen-slider .container .row .bx-wrapper
+{
+	margin:0 auto !important;
+}
+
+.screen-slider .container .row
+{
+	margin-bottom: 75px;
 }
