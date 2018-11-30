@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 
-<html>
+<html lang="en">
 
     <head>
 
         <title>Responsive Web</title>
 
         <meta charset="utf-8">
-        <meta name="viewport" content=width=device-width,initial-scale1>
+
+        <meta name="description" cotnent="Simple, clean, responsive website built with HTML5, CSS3, Js, jquery and Bootstrap">
+
+        <meta name="keywords" content="web, desing, html, css, html5, css3, javascript, jquery, bootstrap, development">
+
+        <meta name="viewport" content="width=device-width,initial-scale1">
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -24,16 +29,36 @@
         <!--Favicon-->
         <link rel="icon" type="image/png" href="images/favicon.png">
 
-        <!-- BxSlider CSS File-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-
         <!-- Bootstrap Javascript -->
         <script src="js/jquery.js"></script>
-        <!--<script src="js/boostrap-min.js"></script>-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/boostrap-min.js"></script>-
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
         <script src="js/custom.js"></script>
-    
+
+        <!--Bxslider Javascript -->
+        <!--<script src="js/jquery.bxslider.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- BxSlider CSS File-->
+         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"> 
+        <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" -->
+
+        <!--Add Js counters lib -->
+        <!--<script src="js/query.waypoints.min.js" ></script>-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+        <script src="js/jquery.counterup.min.js" ></script>
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+        <!-- Animate CSS JS -->
+        <script src="js/wow.min.js"></script>
+
+        <!-- Responsive -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
     </head>
 
     <body>
@@ -114,9 +139,9 @@
                             <div class="header-btns">
 
                                 <!--HEADER BOTTONS-->
-                                <a class="btn btn-download" href="#">Donwload</a>
+                                <a class="btn btn-download wow fadeInLeft" href="#">Donwload</a>
 
-                                <a class="btn btn-tour" href="#">Take a Tour
+                                <a class="btn btn-tour wow fadeInRight " href="#">Take a Tour
 
                                     <i class="fa fa-angle-down"></i>
 
@@ -178,15 +203,15 @@
                         <div class="col-md-6">
 
                             <!--About iphone -->
-                            <div class="about-iphone">
+                            <div class="about-iphone wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="1s" >
 
-                                <img src="images/about-iphone.png" alt="iphone">
+                                <img class="img-responsive" src="images/about-iphone.png" alt="iphone">
 
                             </div>
 
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow fadeInRight" data-wow-duration=".5s" data-wow-delay="1s">
 
                             <!--  Why choose us title -->
                             <div class="choose-us-title">
@@ -201,7 +226,7 @@
                             <div class="choose-us-des">
 
                                 <!--Choose us item 1-->
-                                <div class="choose-us-item">
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
 
                                     <!--Choose us item icon-->
                                     <div><i class="fa fa-bolt"></i></div>
@@ -214,7 +239,7 @@
                                 </div>
 
                                 <!--Choose us item 2-->
-                                <div class="choose-us-item">
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 
                                     <!--Choose us item icon-->
                                     <div><i class="fa fa-bullhorn"></i></div>
@@ -227,7 +252,7 @@
                                 </div>
 
                                  <!--Choose us item 3-->
-                                <div class="choose-us-item">
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
 
                                     <!--Choose us item icon-->
                                     <div><i class="fa fa-flag"></i></div>
@@ -260,7 +285,7 @@
 
                     <div class="row">
 
-                        <div class="col-md-12">
+                        <div class="col-md-12 wow bounceInDown">
 
                             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
@@ -372,7 +397,7 @@
 
                     <div class="row">
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
                         <!-- Left Feature item 01 -->
                         <div class="left-feature-item">
@@ -428,16 +453,16 @@
 
                             <div class="feature-iphone">
 
-                                <img src="images/iphone-02.png" alt="feature iphone">
+                                <img class="wow bounceIn img-responsive" data-wow-duration="1s" src="images/iphone-02.png" alt="feature iphone">
 
                             </div>
 
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
 
                              <!--Right feature item 01-->
-                            <div class="right-feature-item">
+                            <div class="right-feature-item ">
 
                                 <!-- icon -->
                                 <div class="right-feature-item-icon">
@@ -498,11 +523,12 @@
         </section>
 
         <!-- Purchase Now -->
-        <section id="purchase-now" class="purchase-now">
 
+        <section id="purchase-now" class="purchase-now">
+            <h6>Texto escondido :P</h6>
             <div class="container">
 
-                <div class="row">
+                <div class="row wow fadeInLeftBig" data-row-duration="1s">
 
                     <div class="col-md-9">
 
@@ -545,31 +571,39 @@
 
             </div>  
 
-            <div class="screen-slider">
+            <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
 
-                <div class="carousel">
+                <div class="container">
 
-                    <div class="item">
+                    <div class="row">
 
-                        <img src="images/screen-01.png" width="60" height="60" alt="screen">
+                        <div class="bxslider">
 
-                    </div>
+                            <div class="item">
 
-                    <div class="item">
+                                <img src="images/screen-01.png"  alt="screen">
 
-                        <img src="images/screen-02.png" width="60" height="60" alt="screen">
+                            </div>
 
-                    </div>
+                            <div class="item">
 
-                     <div class="item">
+                                <img src="images/screen-02.png"  alt="screen">
 
-                        <img src="images/screen-03.png" width="60" height="60" alt="screen">
+                            </div>
 
-                    </div>
+                             <div class="item">
 
-                     <div class="item">
+                                <img src="images/screen-03.png"  alt="screen">
 
-                        <img src="images/screen-04.png" width="60" height="60" alt="screen">
+                            </div>
+
+                             <div class="item">
+
+                                <img src="images/screen-04.png"  alt="screen">
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -584,7 +618,7 @@
 
             <div class="counter-overlay">
 
-                <div class="container">
+                <div class="container wow bounceInLeft" data-wow-duration="1s">
 
                     <div class="row text-center">
 
@@ -622,7 +656,7 @@
 
                                 <div><i class="fa fa-heart"></i></div>
 
-                                <h2><span class="counter-num">199 </span><span>+</span></h2>
+                                <h2><span class="counter-num">275 </span><span>+</span></h2>
 
                                 <p>Likes</p>
 
@@ -679,9 +713,9 @@
 
                 <div class="row">
 
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
 
-                        <img src="images/download-screen.png" alt="download screen">
+                        <img  class="img-responsive" src="images/download-screen.png" alt="download screen">
 
                     </div>
 
@@ -694,7 +728,7 @@
         <!-- Avaiable on -->
         <section class="available-on">
 
-            <div class="container">
+            <div class="container wow bounceInRight" data-wow-duration="1s">
 
                 <div class="row">
 
@@ -787,7 +821,7 @@
         <!-- Contact Us -->
         <section id="contact" class="contact-us">
 
-             <div class="container">
+             <div class="container wow bounceInRight">
 
                 <div class="row">
 
@@ -806,11 +840,11 @@
 
             </div>
 
-            <div class="contact-us-form">
+            <div class="contact-us-form wow bounceIn">
 
                 <div class="container">
 
-                    <form role="form">
+                    <form>
 
                         <div class="row">
 
@@ -844,7 +878,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInLeft">
 
                         <div class="social-icons">
 
@@ -900,7 +934,7 @@
             </div>
 
         </footer>
-        
+
     </body>
 
 </html>
